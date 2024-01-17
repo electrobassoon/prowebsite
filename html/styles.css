@@ -11,6 +11,7 @@ font-size: 36px;
 h2 {
 color:darkred;
 font-size: 24px;
+text-align: center;
 }
 
 ul {
@@ -42,7 +43,7 @@ color: white;
 }
 
 li a:hover:not(.active){
-background-color:red;
+background-color: #AA0000;
 color:white;
 }
 
@@ -119,3 +120,17 @@ clear:both;
 padding: 10px;
 text-align: center;
 }
+
+.research {
+padding: 30px 100px;
+}
+
+.footer {
+padding: 1px;
+text-size: 12px;
+margin-top: 20px;
+background-color:darkred;
+color:lightgray;
+text-align: center;
+}
+
