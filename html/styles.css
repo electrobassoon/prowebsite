@@ -1,0 +1,121 @@
+body {
+background-color: darkgray;
+}
+
+h1 {
+color: darkred;
+text-align: center;
+font-size: 36px;
+}
+
+h2 {
+color:darkred;
+font-size: 24px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: gray;
+}
+li {
+float: left;
+}
+li a {
+display:block;
+width: 150px;
+text-decoration: none;
+background-color: gray;
+color: black;
+text-align: center;
+padding: 8px;
+font-family: Georgia;
+font-size: 24px;
+}
+
+
+li a.active {
+background-color: darkred;
+color: white;
+}
+
+li a:hover:not(.active){
+background-color:red;
+color:white;
+}
+
+img {
+border-style: solid;
+border-width: 8px;
+border-color: darkred;
+border-radius: 5px;
+margin: 0px 10px;
+}
+
+p {
+font-family: Garamond, Georgia, sans-serif;
+font-size: 18px;
+margin-right: 20px;
+}
+
+a {
+font-family: Garamond, Georgia, sans-serif;
+font-size: 18px;
+color: darkred;
+}
+
+
+.piclink {
+float: left;
+clear: left;
+width: 33%;
+}
+
+.bio {
+float: right;
+width: 66%;
+}
+
+.header{
+background-color: darkred;
+text-align: center;
+padding: 1px;
+border-color: black;
+}
+
+.header p{
+font-size: 46px;
+font-family: serif;
+color:lightgray;
+}
+
+.button {
+background-color:darkred;
+color:white;
+padding: 5px 15px;
+margins: auto;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 24px;
+border-radius: 10px;
+}
+
+div.vidgallery {
+margin: 5px;
+float: left;
+width: 560px;
+}
+
+div.desc {
+padding: 14px;
+text-align: center;
+font-size: 18px;
+}
+div.audiorec {
+clear:both;
+padding: 10px;
+text-align: center;
+}
