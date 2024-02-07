@@ -75,6 +75,8 @@ color: darkred;
 
 .piclink {
 align-self: flex-start;
+margin-left: auto;
+margin-right: auto;
 }
 
 .bio {
