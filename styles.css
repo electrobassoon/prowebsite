@@ -148,6 +148,8 @@ align-items: center;
   }
   p {
       font-size: 24px;
+      line-height: 2em;
+      word-spacing: 0.26em;
   }
   a {
       font-size: 24px;
@@ -157,7 +159,10 @@ align-items: center;
   }
   h2 {
       font-size: 30px;
-  } 
+  }
+  li a {
+      font-size: 30px;
+  }
 }
 
 .footer {
