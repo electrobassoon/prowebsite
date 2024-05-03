@@ -223,7 +223,7 @@ input[type=submit]:hover {
       font-size: 24px;
   }
   div.desc {
-      font-size: 24px;
+      font-size: 26px;
   }
   h2 {
       font-size: 30px;
@@ -246,6 +246,9 @@ input[type=submit]:hover {
   }
   textarea {
       font-size: 24px;
+  }
+  a.button {
+      font-size: 26px;
   }
 }
 
